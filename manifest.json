@@ -1,0 +1,44 @@
+{
+  "name": "Movie Lab",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Presenting you with a library of most trending movies today",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/Logo.png",
+    "48": "icons/Logo.png",
+    "128": "icons/Logo.png"
+  },
+  "default_locale": "en",
+  "page_action": {
+    "default_icon": "icons/Logo.png",
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/override/override.html"
+  },
+  "permissions": [
+    "bookmarks",
+    "history",
+    "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}

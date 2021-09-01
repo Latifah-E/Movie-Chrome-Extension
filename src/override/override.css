@@ -1,0 +1,386 @@
+html{
+  scroll-behavior: smooth !important;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:  #0b0c13;
+    scroll-behavior: smooth !important;
+    }
+
+
+    /* top google section */
+    .my-container{
+      padding: 0px 140px;
+      z-index: 2;
+      position: relative;
+      top: -975px;
+    }
+    img.google-name{
+        width: 30%;
+    }
+    .google-icon{
+        text-align: center;
+        margin-top: 150px;
+    }
+    .movie-background{
+      padding: 10%;
+      z-index: 2;
+      position: relative;
+    }
+
+    img.background{
+      z-index: -1;
+      position: relative;
+      top: -900px;
+      width: 100%;
+      opacity: 0.05;
+    }
+    /* google search box */
+    form.google-searcher{
+        background-color: #2B2D3E;
+         border-radius: 40px;
+         padding-left: 0;
+         padding-right: 0;
+         display: flex;
+         width: 60%;
+         margin: 4% 20%;
+    }
+    .google-search{
+        text-align: center;
+    }
+    form.google-searcher input{
+        background: transparent;
+        border: none;
+        height: 60px;
+         width: 80%;
+         padding: 14px 35px;
+    }
+    button.search2{
+        width: 20%;
+        border-radius: 30px;
+        background-color: #13141C;
+        border: none;
+        color: #5B5D67;
+    
+    }
+
+    button.search2:hover{
+      width: 20%;
+      border-radius: 30px;
+      background-color: #0f101a;
+      border: none;
+      color: #3c4050;
+  
+  }
+  .scroller{
+    width: 15%;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+    background: #2b2d3e;
+    height: 47px;
+    border-radius: 10px;
+    opacity: 0.5;
+  }
+
+  .scroller:hover{
+    width: 15%;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+    background: #444658;
+    height: 47px;
+    border-radius: 10px;
+    opacity: 0.5;
+  }
+  .scroller a {
+    display: inline-flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: whitesmoke;
+  }
+
+
+  
+  #headerPopup{
+    width:75%;
+    margin:0 auto;
+  }
+  
+  #headerPopup iframe{
+    width:100%;
+    margin:0 auto;
+  }
+    form.google-searcher input::placeholder{
+        font-style: normal;
+    }
+    form.google-searcher  input:focus{
+        outline: none;
+    }
+    input{
+        color: white;
+    }
+
+    /* movie content stats fom here */
+
+    .heading{
+        font-size: 42px;
+        text-align: left;
+        font-weight: 400;
+        color: #606168;
+        padding: 30px 0px;
+        margin-top: 0%;
+    }
+
+    /* top rated movies */
+    
+    img.top-rated-movie-pic{
+        width: 100%;
+
+    }
+    img.top-rated-movie-pic-sm{
+        width: 82%;
+    }
+    .top-mov-sm{
+        width: 82%;
+    }
+    .top-mov-row{
+        margin-bottom: 38px;
+    }
+    /* big card */
+    .bg-movie-card{
+        background: #2b2d3ea1;
+        box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .bg-movie-card:hover {
+        -webkit-transform: scale(1.03);
+                transform: scale(1.03);
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+      }
+      .bg-movie-header{
+        padding: 0;
+        margin: 0;
+        min-height: 450px;
+        width: 100%;
+        display: block;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+      }
+      .bg-header-icon {
+        width: 100%;
+        min-height: 450px;
+        line-height: 450px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0 auto;
+        color: #ffffff;
+        font-size: 54px;
+        text-shadow: 0px 0px 20px #222433, 0px 5px 20px #000000;
+        opacity: .85;
+    }
+    .bg-header-icon:hover {
+        background: rgba(0, 0, 0, 0.15);
+        font-size: 74px;
+        text-shadow: 0px 0px 20px #222433, 0px 5px 20px #000000;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        opacity: 1;
+      }
+      .bg-movie-card:hover {
+        -webkit-transform: scale(1.03);
+                transform: scale(1.03);
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+      }
+
+      /* small card */
+    .sm-movie-card{
+        background: #2b2d3ea1;
+        box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .sm-header-icon {
+        width: 100%;
+        min-height: 256px;
+        line-height: 256px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0 auto;
+        color: #ffffff;
+        font-size: 54px;
+        text-shadow: 0px 0px 20px #222433, 0px 5px 20px #000000;
+        opacity: .85;
+    }
+    .sm-header-icon:hover {
+        background: rgba(0, 0, 0, 0.15);
+        font-size: 74px;
+        text-shadow: 0px 0px 20px #222433, 0px 5px 20px #000000;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        opacity: 1;
+      }
+      .sm-movie-card:hover {
+        -webkit-transform: scale(1.03);
+                transform: scale(1.03);
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+      }
+      .sm-movie-header{
+        padding: 0;
+        margin: 0;
+        min-height: 256px;
+        width: 100%;
+        display: block;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+    /* normal card */
+    .movie-card {
+        background: #2b2d3ea1;
+        box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        border-radius: 10px;
+        display: inline-block;
+      }
+      
+    .movie-col, .series-col{
+      padding-right: 20px;
+      padding-left: 0;
+      width: 25%;
+      margin-bottom: 20px;
+    }
+
+      .movie-header {
+        padding: 0;
+        margin: 0;
+        height: 367px;
+        width: 100%;
+        display: block;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+     
+      .header-icon-container {
+        position: relative;
+      }
+      
+      .header-icon {
+        width: 100%;
+        height: 367px;
+        line-height: 367px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0 auto;
+        color: #ffffff;
+        font-size: 54px;
+        text-shadow: 0px 0px 20px #222433, 0px 5px 20px #000000;
+        opacity: .85;
+      }
+     
+   
+      .header-icon:hover {
+        background: rgba(0, 0, 0, 0.15);
+        font-size: 74px;
+        text-shadow: 0px 0px 20px #222433, 0px 5px 20px #000000;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        opacity: 1;
+      }
+      
+      .movie-card:hover {
+        -webkit-transform: scale(1.03);
+                transform: scale(1.03);
+        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+      }
+      
+      .movie-content {
+        padding: 18px 18px 24px 18px;
+        margin: 0;
+      }
+      
+      .movie-content-header, .movie-info {
+        display: table;
+        width: 100%;
+      }
+      
+      .movie-title {
+        font-size: 20px;
+        margin: 0;
+        font-weight: 600;
+       display: table-cell;
+        color: white;
+      }
+      a:hover{
+          text-decoration: none;
+      }
+      a h3.movie-title:hover {
+        font-size: 24px;
+        margin: 0;
+        display: table-cell;
+        color: white;
+        text-decoration: none;
+      }
+      .rating {
+        display: table-cell;
+        float: right;
+        position: relative;
+        margin-top: 0px;
+        font-size: 17px;
+        color: white;
+        background: #353850;
+        padding: 5px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+      
+      .movie-info {
+        margin-top: 1em;
+        color: white;
+        font-size: 17px;
+      }
+      #movie-row, #series-row{
+        margin:0;
+      }
+      .movie-info span{
+        padding: 0 20px;
+      }
+     
+      * {
+        -webkit-transition: 300ms;
+        transition: 300ms;
+      }
+      .big-mov-window{
+          background-image: url(./Images/Rectangle\ 7.png);
+      }
+
+      #small-col4{
+        top: -412px;
+      }
+      .small-container3{
+        margin-top: 30px;
+      }
+
+      @media screen and (max-width: 500px) {
+        .movie-card {
+          width: 95%;
+          max-width: 95%;
+          margin: 1em;
+          display: block;
+        }
+      
+        .container {
+          padding: 0;
+          margin: 0;
+        }
+      }
+     
+
+      
